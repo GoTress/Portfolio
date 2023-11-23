@@ -15,9 +15,21 @@ button {
   background-color: transparent;
   border-color: transparent;
 }
-.photo-hover:hover{
- cursor:mouse;
- padding:5px;
+.photo-hover {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+.photo-hover:hover {
+  border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 .embla__button,
 .carousel-control {
