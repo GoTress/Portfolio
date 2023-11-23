@@ -15,7 +15,10 @@ button {
   background-color: transparent;
   border-color: transparent;
 }
-
+.photo-hover:hover{
+ cursor:mouse;
+ padding:5px;
+}
 .embla__button,
 .carousel-control {
   background-color: #edefea !important;
