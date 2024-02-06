@@ -13,9 +13,6 @@ img,
 .item-wrapper {
   border-radius: 2rem !important;
 }
-a{
-  color:black;
-}
 .video-wrapper {
   overflow: hidden;
 }
@@ -725,6 +722,7 @@ body {
 }
 a {
   transition: color 0.6s;
+  color:black !important;
 }
 .cid-tJS6tZXiPa {
   z-index: 1000;
