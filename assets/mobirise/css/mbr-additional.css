@@ -13,6 +13,9 @@ img,
 .item-wrapper {
   border-radius: 2rem !important;
 }
+a{
+  color:black;
+}
 .video-wrapper {
   overflow: hidden;
 }
