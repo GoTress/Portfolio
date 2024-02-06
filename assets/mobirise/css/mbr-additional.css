@@ -1487,6 +1487,10 @@ a {
 @media (min-width: 768px) {
   .cid-tRCLA8DYyi .item-wrapper {
     padding: 2rem;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
